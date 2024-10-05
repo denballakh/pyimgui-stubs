@@ -1,6 +1,6 @@
 [project]
 name = "pyimgui-stubs"
-version = "0.0.1"
+version = "0.0.2"
 description = "stub files for pyimgui package"
 readme = "README.md"
 requires-python = ">=3.8"
