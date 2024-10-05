@@ -1,0 +1,15 @@
+[project]
+name = "pyimgui-stubs"
+version = "0.0.1"
+description = "stub files for pyimgui package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/denballakh/pyimgui-stubs"
+Issues = "https://github.com/denballakh/pyimgui-stubs/issues"
+
