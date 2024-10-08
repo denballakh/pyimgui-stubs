@@ -776,6 +776,15 @@ def slider_float(
     format: str = "%.3f",
     flags: Any = 0,
 ) -> Any: ...
+def slider_float2(
+    label: str,
+    value0: float,
+    value1: float,
+    min_value: float,
+    max_value: float,
+    format: str = "%.3f",
+    flags: Any = 0,
+) -> Any: ...
 def slider_float3(
     label: str,
     value0: float,
