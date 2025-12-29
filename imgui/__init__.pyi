@@ -1,5 +1,5 @@
-import sys
 import typing as t
+from array import array
 from typing import Any
 
 Vec2 = tuple[float, float]
@@ -1161,6 +1161,17 @@ def plot_lines(
     # low-level
     values_count: int = -1,
     values_offset: int = 0,
+    stride: int = ...,
+): ...
+def plot_histogram(
+    label: str,
+    values: array[float] | Any,  # https://github.com/cython/cython/issues/6272
+    values_count: int = -1,
+    values_offset: int = 0,
+    overlay_text: str | None = None,
+    scale_min: float = FLOAT_MAX,
+    scale_max: float = FLOAT_MAX,
+    graph_size: tuple[float, float] = (0, 0),
     stride: int = ...,
 ): ...
 
