@@ -13,3 +13,6 @@ classifiers = [
 Homepage = "https://github.com/denballakh/pyimgui-stubs"
 Issues = "https://github.com/denballakh/pyimgui-stubs/issues"
 
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
